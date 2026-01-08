@@ -4,7 +4,7 @@ layout: page
 title: 'Research'
 ---
 
-The Center for Disease Neurogenomics (CDN, director: [Panos Roussos](http://labs.icahn.mssm.edu/roussos-lab/)) has an established track record of successful collaborations and numerous joint publications. Our work within CDN integrates single-cell and spatial transcriptomics to uncover cell-type-specific regulatory mechanisms in disease states across multiple disease-focused consortia, including PsychENCODE, AMP-AD, AMP-PD, PsychAD, BD2, and TargetALS. We primarily focused on developing and applying computational and machine learning methodologies for understanding the genetic basis of neuropsychiatric and neurodegenerative disorders.
+The Center for Disease Neurogenomics (CDN, director: [Panos Roussos](http://labs.icahn.mssm.edu/roussos-lab/)) has an established track record of successful collaborations and numerous joint publications. Our work within CDN integrates single-cell and spatial transcriptomics to uncover cell-type-specific regulatory mechanisms in disease states across multiple disease-focused consortia, including PsychENCODE, AMP-AD, AMP-PD, PsychAD, BD2, and TargetALS. We primarily focus on developing and applying computational and machine learning methodologies for understanding the genetic basis of neuropsychiatric and neurodegenerative disorders.
 
 ### Single Cell Neurogenomics
 
