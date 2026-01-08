@@ -17,11 +17,11 @@
 # If you want to include your resume, set to true
 
 title: Single Cell Neurogenomics Group
-email: admin@leelaboratory.org
+email: admin@leelab.us
 # description: >- # this means to ignore newlines until "baseurl:"
 #   Single Cell Neurogenomics Group
 # baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.leelaboratory.org" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://leelab.us" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: leelaboratory
 github_username: leelaboratory
 
