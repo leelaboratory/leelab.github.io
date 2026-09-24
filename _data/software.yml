@@ -1,0 +1,96 @@
+ours:
+  - name: PsychADxD
+    use: Analysis code behind the PsychAD cross-disorder atlas (Nature, 2026).
+    lang: Python, Jupyter
+    url: https://github.com/DiseaseNeuroGenomics/PsychADxD
+    paper: 10.1038/s41586-025-09573-z
+    maker: Lee Lab and CDN
+  - name: scMyeloidAD
+    use: Analysis code for FreshMG, the human microglia and perivascular macrophage atlas (Nature Genetics, 2026).
+    lang: Python
+    license: MIT
+    url: https://github.com/DiseaseNeuroGenomics/scMyeloidAD
+    paper: 10.1038/s41588-026-02716-6
+    maker: Lee Lab
+  - name: STARRPeaker
+    use: Peak caller for STARR-seq enhancer assays, used to process ENCODE STARR-seq data.
+    lang: Python
+    license: GPL-3.0
+    install: pip install git+https://github.com/gersteinlab/starrpeaker
+    url: https://github.com/gersteinlab/starrpeaker
+    paper: 10.1186/s13059-020-02194-x
+    maker: Donghoon Lee (Gerstein Lab)
+  - name: ESPRNN
+    use: Predicts splicing from the epigenome with a recurrent neural network.
+    lang: Python
+    url: https://github.com/gersteinlab/esprnn
+    paper: 10.1371/journal.pcbi.1008006
+    maker: Donghoon Lee (Gerstein Lab)
+  - name: MotifTools
+    use: Scores how variants break or create transcription factor motifs, and motif burden across regions.
+    lang: Python
+    url: https://github.com/hoondy/MotifTools
+    maker: Donghoon Lee
+  - name: SCTools
+    use: Helpers for Pegasus and Scanpy, including on-disk AnnData for atlases that don't fit in memory.
+    lang: Python
+    install: pip install git+https://github.com/hoondy/SCTools
+    url: https://github.com/hoondy/SCTools
+    maker: Donghoon Lee
+  - name: ssq
+    use: Super simple queue. Turns a list of commands into an LSF job array on Minerva and emails you when it's done.
+    lang: Python
+    license: GPL-3.0
+    url: https://github.com/leelaboratory/ssq
+    maker: Lee Lab
+
+collaborators:
+  - name: dreamlet
+    use: Pseudobulk differential expression for cohort-scale single-cell data with linear mixed models.
+    lang: R / Bioconductor
+    install: BiocManager::install("dreamlet")
+    url: https://bioconductor.org/packages/dreamlet
+    paper: 10.1038/s41467-026-75680-8
+    maker: Gabriel Hoffman (CDN)
+  - name: crumblr
+    use: Tests for changes in cell-type composition across the cell lineage tree.
+    lang: R / Bioconductor
+    install: BiocManager::install("crumblr")
+    url: https://bioconductor.org/packages/crumblr
+    paper: 10.1038/s41467-026-75681-7
+    maker: Gabriel Hoffman (CDN)
+  - name: PASCode
+    use: Scores single cells for association with a clinical phenotype using graph neural networks.
+    lang: Python
+    license: MIT
+    url: https://github.com/daifengwanglab/PASCode
+    paper: 10.1038/s41591-025-04128-1
+    maker: Daifeng Wang Lab
+  - name: iBrainMap
+    use: Builds a personal gene-regulatory and cell-cell interaction network for each donor.
+    lang: Python
+    license: MIT
+    url: https://github.com/daifengwanglab/iBrainMap
+    paper: 10.1038/s41467-026-72310-1
+    maker: Daifeng Wang Lab
+
+data:
+  - name: PsychAD atlas on CELLxGENE
+    use: Browse the cross-disorder atlas in your web browser. Open access.
+    url: https://cellxgene.cziscience.com/collections/84ce6837-548d-4a1f-919f-0bc0d9a3952f
+  - name: PsychAD on the AD Knowledge Portal
+    use: Raw and processed single-nucleus data and metadata (controlled access).
+    url: https://doi.org/10.7303/9618136
+  - name: FreshMG on Synapse
+    use: FreshMG single-cell data and metadata, through the AD Knowledge Portal.
+    url: https://www.synapse.org/Synapse:syn52795287
+  - name: psych-ad.org
+    use: The PsychAD consortium site, with data access and companion studies.
+    url: https://psych-ad.org/
+
+earlier:
+  - { name: RADAR, url: "https://github.com/gersteinlab/RADAR", note: "Variant annotation for RNA-binding protein regulomes (co-developer)" }
+  - { name: DECODE, url: "http://decode.gersteinlab.org", note: "Deep learning for enhancer boundaries" }
+  - { name: SCAN-ATAC-Sim, url: "https://github.com/gersteinlab/scan-atac-sim", note: "Single-cell ATAC-seq simulator" }
+  - { name: TopicNet, url: "https://github.com/gersteinlab/topicnet", note: "Regulatory network change with topic models" }
+  - { name: NIMBus, url: "https://github.com/gersteinlab/nimbus", note: "Mutation burden analysis" }

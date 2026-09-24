@@ -1,0 +1,74 @@
+---
+title: Publications
+eyebrow: Our work
+lede: Discoveries, methods and collaborations. Explore selected work and our publication archive.
+permalink: /publications/
+description: Publications from Donghoon Lee and the Lee Lab (Single Cell Neurogenomics Group) at Mount Sinai.
+---
+{%- assign pubs = site.data.publications -%}
+{%- assign featured = pubs | where_exp: "p", "p.featured" | sort: "featured" -%}
+<section class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+<p class="eyebrow">Featured</p>
+<h2>Selected papers</h2>
+</div>
+      <p class="muted"><strong>Bold</strong> = Donghoon Lee · <span class="lab">Highlighted</span> = lab members</p>
+    </div>
+    <ol class="publication-list publication-list--featured">
+      {%- for p in featured %}{% include pub.html p=p %}{% endfor %}
+    </ol>
+  </div>
+</section>
+
+<section class="section section-tint" aria-labelledby="all-pubs" data-pub-scope>
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+<p class="eyebrow">Publication archive</p>
+<h2 id="all-pubs">All publications</h2>
+</div>
+      <p><a href="{{ site.links.scholar }}">Google Scholar</a> · <a href="{{ site.links.orcid }}">ORCID</a>
+</p>
+    </div>
+
+    <div class="pub-filters" data-pub-filters hidden>
+      <div class="pub-filters__buttons" role="group" aria-label="Filter publications">
+        <button type="button" class="chip" data-filter="all" aria-pressed="true">All</button>
+        <button type="button" class="chip" data-filter="cover" aria-pressed="false">Covers</button>
+        <button type="button" class="chip" data-filter="lead" aria-pressed="false">First / co-first</button>
+        <button type="button" class="chip" data-filter="trainee" aria-pressed="false">Trainee-led</button>
+        <button type="button" class="chip" data-filter="psychad" aria-pressed="false">PsychAD collection</button>
+        <button type="button" class="chip" data-filter="preprint" aria-pressed="false">Preprints</button>
+      </div>
+      <label class="pub-filters__search">
+        <span class="visually-hidden">Search publications</span>
+        <input type="search" placeholder="Search titles, authors, journals" autocomplete="off">
+      </label>
+      <p class="pub-filters__count muted" data-pub-count aria-live="polite">
+</p>
+    </div>
+
+    {%- assign main = pubs | where: "list", "main" -%}
+    {%- assign years = main | group_by: "year" -%}
+    {%- for y in years %}
+    <section class="publication-year" data-pub-year aria-labelledby="y{{ y.name }}">
+      <h3 class="publication-year__head" id="y{{ y.name }}"><span class="year-label">{{ y.name }}</span>
+</h3>
+      <ol class="publication-list">
+        {%- for p in y.items %}{% include pub.html p=p %}{% endfor %}
+      </ol>
+    </section>
+    {%- endfor %}
+
+    {%- assign consortium_papers = pubs | where: "list", "raid" %}
+    <details class="consortium-papers">
+      <summary><span class="year-label">Consortia</span> Large consortium papers ({{ consortium_papers.size }})</summary>
+      <p class="muted">Collaborative work with PsychENCODE, PCAWG, ENCODE, the 1000 Genomes Project and others.</p>
+      <ol class="publication-list">
+        {%- for p in consortium_papers %}{% include pub.html p=p %}{% endfor %}
+      </ol>
+    </details>
+  </div>
+</section>

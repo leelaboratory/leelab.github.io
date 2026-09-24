@@ -1,0 +1,113 @@
+---
+title: Research
+heading: From cellular diversity<br>to disease mechanisms.
+eyebrow: Our science
+lede: We build computational approaches to understand how genetics, cell states and gene regulation shape the human brain in health and disease.
+permalink: /research/
+---
+<section class="section section-compact">
+<div class="wrap">
+<nav class="research-index" aria-label="Research directions">{% for area in site.data.zones %}<a href="#{{ area.id }}"><span>0{{ forloop.index }}</span>{{ area.topic | escape }} <span aria-hidden="true">↓</span></a>{% endfor %}</nav>
+</div>
+</section>
+<section class="section research-detail section-tint" id="atlas">
+<div class="wrap research-detail-grid">
+<div>
+<p class="eyebrow">Research direction 01</p>
+<h2>Population-scale single-cell atlases</h2>
+<p class="research-question">What changes in each cell type across brain disorders—and what do those disorders share?</p>
+</div>
+<div class="prose">
+<p>Most of what we know about the molecular side of brain disorders came from bulk tissue, which averages over every cell type at once. Single-nucleus sequencing at population scale lets us look cell type by cell type, in hundreds to thousands of people.</p>
+        <p>With the <a href="https://psych-ad.org/">PsychAD</a> consortium (R01AG067025) we built one of the largest single-cell atlases of the human dorsolateral prefrontal cortex: 6.3 million nuclei from 1,494 donors, spanning neurotypical controls and eight neurodegenerative and neuropsychiatric diseases. Comparing disorders side by side, we looked for the shared and distinct patterns of transcriptomic change, and for the genetic factors behind co-pathology. The variation across diseases pointed to a central process involving the neuro-immune-vascular system, with vascular cells as a key mediator of neurodegeneration in Alzheimer's disease.</p>
+        <p>A companion atlas of 284 neurotypical donors, aged 0 to 97, tracks how each cell type changes over a lifetime.</p>
+<figure class="research-figure"><a href="{{ '/assets/img/research/psychad-atlas.webp' | relative_url }}"><img src="{{ '/assets/img/research/psychad-atlas-900.webp' | relative_url }}" alt="PsychAD donor overview and brain cell atlas" width="900" height="449" loading="lazy"></a><figcaption>The PsychAD atlas: 1,494 donors, 6.3 million nuclei and 65 cell subtypes.</figcaption>
+</figure>
+<div class="related-papers">
+<p class="eyebrow">Related publications</p>
+{% assign related = site.data.publications | where: 'zone', 'atlas' %}{% for p in related limit:3 %}
+<p><a href="https://doi.org/{{ p.doi }}">{{ p.title }} ↗</a><small>{{ p.journal }} · {{ p.year }}</small>
+</p>
+{% endfor %}</div>
+</div>
+</div>
+</section>
+<section class="section research-detail" id="myeloid">
+<div class="wrap research-detail-grid">
+<div>
+<p class="eyebrow">Research direction 02</p>
+<h2>Microglia &amp; brain immunity</h2>
+<p class="research-question">How do the brain’s immune cells change with age and Alzheimer’s disease?</p>
+</div>
+<div class="prose">
+<p>Microglia and perivascular macrophages are the brain's resident immune cells, and many Alzheimer's risk genes are expressed mainly in them. FreshMG profiled 832,505 of these myeloid cells from the prefrontal cortex of 1,607 donors and sorted them into 6 subclasses and 13 subtypes.</p>
+        <p>They move fluidly between states with age and disease. One disease-associated microglia subtype, marked by high GPNMB, is enriched for Alzheimer's genetic risk and expands as pathology worsens. MITF holds cells in that state, and in human and mouse models its protective effect depends on TREM2. The paper was the cover story of the September 2026 <i>Nature Genetics</i>. Code: <a href="https://github.com/DiseaseNeuroGenomics/scMyeloidAD">scMyeloidAD</a>.</p>
+<div class="related-papers">
+<p class="eyebrow">Related publications</p>
+{% assign related = site.data.publications | where: 'zone', 'myeloid' %}{% for p in related limit:3 %}
+<p><a href="https://doi.org/{{ p.doi }}">{{ p.title }} ↗</a><small>{{ p.journal }} · {{ p.year }}</small>
+</p>
+{% endfor %}</div>
+</div>
+</div>
+</section>
+<section class="section research-detail section-tint" id="genetics">
+<div class="wrap research-detail-grid">
+<div>
+<p class="eyebrow">Research direction 03</p>
+<h2>Cell-type-specific genetics</h2>
+<p class="research-question">In which cells do genetic risk variants for brain disorders exert their effects?</p>
+</div>
+<div class="prose">
+<p>Most risk variants for brain disorders sit in non-coding DNA and act in only some cell types. We map genetic regulation at single-cell resolution and use it to connect GWAS loci to genes and to the cells where they matter.</p>
+        <p>The PsychAD eQTL atlas covers 5.6 million nuclei from 1,384 donors of diverse ancestry. It finds genetic regulation for 14,258 genes, including about 1,000 with cell-type-specific effects. A single-nucleus transcriptome-wide association study built on the same data links thousands of genes to brain disorders that bulk tissue misses. Earlier, we mapped how genetic variation shapes chromatin accessibility in specific brain cell types (<i>Science</i>, 2024).</p>
+<div class="related-papers">
+<p class="eyebrow">Related publications</p>
+{% assign related = site.data.publications | where: 'zone', 'genetics' %}{% for p in related limit:3 %}
+<p><a href="https://doi.org/{{ p.doi }}">{{ p.title }} ↗</a><small>{{ p.journal }} · {{ p.year }}</small>
+</p>
+{% endfor %}</div>
+</div>
+</div>
+</section>
+<section class="section research-detail" id="ml">
+<div class="wrap research-detail-grid">
+<div>
+<p class="eyebrow">Research direction 04</p>
+<h2>Machine learning for genomics</h2>
+<p class="research-question">How can computational models reveal disease-relevant cells and regulatory mechanisms?</p>
+</div>
+<div class="prose">
+<p>We frame biological problems in mathematical and statistical terms. With this much single-nucleus and functional genomic data, statistical modeling and machine learning are how we read disease genomes.</p>
+        <p>Recent examples include PASCode, which scores every cell for its association with a clinical phenotype, and iBrainMap, which builds a gene-regulatory network for each person. Earlier work includes ESPRNN, a recurrent neural network that predicts splicing from the epigenome, and DECODE, a deep learning model that refines enhancer boundaries.</p>
+<figure class="research-figure"><img src="{{ '/assets/img/research/esprnn.webp' | relative_url }}" alt="ESPRNN framework for epigenome-based splicing prediction" loading="lazy"><figcaption>ESPRNN connects the epigenome to splicing prediction.</figcaption>
+</figure>
+<div class="related-papers">
+<p class="eyebrow">Related publications</p>
+{% assign related = site.data.publications | where: 'zone', 'ml' %}{% for p in related limit:3 %}
+<p><a href="https://doi.org/{{ p.doi }}">{{ p.title }} ↗</a><small>{{ p.journal }} · {{ p.year }}</small>
+</p>
+{% endfor %}</div>
+</div>
+</div>
+</section>
+<section class="section research-detail section-tint" id="regulatory">
+<div class="wrap research-detail-grid">
+<div>
+<p class="eyebrow">Research direction 05</p>
+<h2>Gene regulation &amp; networks</h2>
+<p class="research-question">Which regulatory programs change in disease, and what drives those changes?</p>
+</div>
+<div class="prose">
+<p>Integrative approaches can pull patterns and rules out of large data. We identify cis-regulatory elements, build gene regulatory networks and follow how regulation changes over time, with development, and in disease.</p>
+        <p>Recent work maps the regulators of the postnatal brain from infancy to late adulthood and describes gene regulatory programs of cognitive resilience in Alzheimer's disease. Before Mount Sinai, Donghoon built STARRPeaker to call enhancers from STARR-seq assays for ENCODE and studied how transcription factor networks rewire in cancer.</p>
+<div class="related-papers">
+<p class="eyebrow">Related publications</p>
+{% assign related = site.data.publications | where: 'zone', 'regulatory' %}{% for p in related limit:3 %}
+<p><a href="https://doi.org/{{ p.doi }}">{{ p.title }} ↗</a><small>{{ p.journal }} · {{ p.year }}</small>
+</p>
+{% endfor %}</div>
+</div>
+</div>
+</section>
+{% include join-banner.html %}

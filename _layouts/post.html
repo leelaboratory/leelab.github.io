@@ -2,22 +2,21 @@
 layout: default
 ---
 <article>
-
-  <header>
-    <h1>{{ page.title | escape }}</h1>
-    <p class="text-muted">
-      <time datetime="{{ page.date | date_to_xmlschema }}">
-        {%- assign date_format = "%b %-d, %Y" -%}
-        {{ page.date | date: date_format }}
-      </time>
-      {%- if page.author -%}
-        • {{ page.author }}
-      {%- endif -%}
-    </p>
-  </header>
-
-  <section>
-    {{ content }}
-  </section>
-
+  <header class="page-hero post-hero">
+<div class="wrap"><a class="eyebrow" href="{{ '/news/' | relative_url }}">← Lab news</a>
+<p class="post-meta">{% if page.badge == 'cover' %}<span class="badge">On the cover</span>{% else %}<span class="badge">Research</span>{% endif %}<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%-d %B %Y' }}</time>
+</p>
+<h1>{{ page.title }}</h1>
+<p class="lede">{{ page.summary }}</p>
+</div>
+</header>
+  <div class="wrap article-layout section">
+    {% if page.cover_image %}<aside class="article-cover"><a href="{{ page.issue_url }}"><img src="{{ page.cover_image | relative_url }}" alt="{{ page.cover_alt }}" width="440" height="584"></a>
+<p>{{ page.cover_credit }}</p>
+<a class="text-link" href="{{ page.issue_url }}">Explore the issue <span aria-hidden="true">↗</span></a>
+</aside>
+{% endif %}
+    <div class="prose post-body">{{ content }}</div>
+  </div>
 </article>
+<nav class="post-nav wrap" aria-label="More news"><a class="text-link" href="{{ '/news/' | relative_url }}">← All news</a>{% if page.related_story %}{% assign related = site.posts | where: 'slug', page.related_story | first %}<a class="text-link" href="{{ related.url | relative_url }}">{{ related.title }} →</a>{% elsif page.next %}<a class="text-link" href="{{ page.next.url | relative_url }}">{{ page.next.title }} →</a>{% endif %}</nav>

@@ -1,0 +1,33 @@
+# Generated site and caches
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+# Local dependencies
+.bundle/
+vendor/
+node_modules/
+Gemfile.lock
+# Source assets and local working files
+STAGING/
+.local/
+.artifacts/
+.preview/
+tmp/
+playwright-report/
+test-results/
+*.log
+# Private workspace configuration
+.claude/
+.codex/
+.agents/
+AGENTS.md
+CLAUDE.md
+# System, editor, and environment files
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+.env
+.env.*

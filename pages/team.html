@@ -1,0 +1,64 @@
+---
+title: People
+heading: Many perspectives.<br>A shared curiosity.
+eyebrow: Meet the lab
+lede: A team of computational biologists and neuroscientists exploring the human brain, together.
+permalink: /team/
+---
+<section class="section">
+<div class="wrap">
+<article class="pi-feature"><img src="{{ '/assets/img/team/dl.webp' | relative_url }}" alt="Donghoon Lee" width="360" height="360">
+<div>
+<p class="eyebrow">Principal investigator</p>
+<h2>Donghoon Lee, PhD</h2>
+<p>Assistant Professor of Psychiatry and of Genetics and Genomic Sciences<br>Director, Single Cell Neurogenomics Group</p>
+<p>Connecting computational methods, human genetics and single-cell biology to understand brain disease.</p>
+<a class="text-link" href="{{ '/pi/' | relative_url }}">Biography, research &amp; career ↗</a>
+</div>
+</article>
+<div class="section-head team-heading">
+<h2>Our people</h2>
+<span class="eyebrow">Different backgrounds. Shared discoveries.</span>
+</div>
+<div class="team-grid">{% for member in site.data.team.current %}{% unless member.leader %}
+<article class="person" id="{{ member.short | slugify }}"><img src="{{ '/assets/img/team/' | append: member.photo | relative_url }}" alt="{{ member.name }}" width="320" height="320" loading="lazy">
+<p class="eyebrow">{{ member.class }}</p>
+<h3>{{ member.name }}</h3>
+<p>{{ member.role }}</p>
+<p class="person-email">{{ member.email }}</p>
+</article>
+{% endunless %}{% endfor %}</div>
+</div>
+</section>
+<section class="section section-tint">
+<div class="wrap two-column">
+<div>
+<p class="eyebrow">Beyond the lab</p>
+<h2>Our alumni</h2>
+<p>We’re proud of the paths our colleagues take.</p>
+</div>
+<div class="alumni-list">{% for member in site.data.team.alumni %}
+<article class="alumni-person" id="{{ member.short | slugify }}"><img src="{{ '/assets/img/team/' | append: member.photo | relative_url }}" alt="{{ member.name }}" width="120" height="120" loading="lazy">
+<div>
+<h3>{{ member.name }}</h3>
+<p>{{ member.role }}{% if member.years %} · {{ member.years }}{% endif %}</p>
+<p><strong>Now:</strong> {{ member.now }}</p>
+</div>
+</article>
+{% endfor %}</div>
+</div>
+</section>
+<section class="section">
+<div class="wrap">
+<div class="section-head">
+<div>
+<p class="eyebrow">Our scientific community</p>
+<h2>Connected by curiosity.</h2>
+</div>
+<a class="text-link" href="{{ site.links.cdn }}">Meet the wider center ↗</a>
+</div>
+<figure class="community-photo"><img src="{{ '/assets/img/lab/cdn-retreat-2024.webp' | relative_url }}" alt="The Center for Disease Neurogenomics team at the 2024 retreat" width="1600" height="1030" loading="lazy"><figcaption>Together at the 2024 Center for Disease Neurogenomics retreat.</figcaption>
+</figure>
+</div>
+</section>
+{% include join-banner.html %}

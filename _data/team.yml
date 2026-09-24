@@ -1,0 +1,59 @@
+current:
+  - name: Donghoon Lee, PhD
+    short: Donghoon
+    class: Principal Investigator
+    role: Director, Single Cell Neurogenomics Group
+    photo: dl.webp
+    email: donghoon (dot) lee (at) mssm (dot) edu
+    page: /pi/
+    leader: true
+
+  - name: Tereza Clarence, PhD
+    short: Tereza
+    class: Postdoc
+    role: Postdoctoral Fellow, Computational Biology
+    photo: tc.webp
+    email: tereza (dot) clarence (at) mssm (dot) edu
+
+  - name: Dimitrios Kyriakis, PhD
+    short: Dimitrios
+    class: Postdoc
+    role: Postdoctoral Fellow, Computational Biology
+    photo: dk.webp
+    email: dimitrios (dot) kyriakis (at) mssm (dot) edu
+
+  - name: Xuan Cao, PhD
+    short: Xuan
+    class: Postdoc
+    role: Postdoctoral Fellow, Computational Biology
+    photo: xc.webp
+    email: xuan (dot) cao (at) mssm (dot) edu
+
+  - name: Chia-Hsuan Chou
+    short: Chia-Hsuan
+    class: PhD Student
+    role: Graduate Student, Computational Biology
+    photo: cc.webp
+    email: chia-hsuan (dot) chou (at) icahn (dot) mssm (dot) edu
+
+alumni:
+  - name: Collin Spencer, PhD
+    short: Collin
+    years: 2021–2026
+    role: Graduate Student, Computational Biology
+    now: AI Product Engineer, Coefficient Bio (acquired by Anthropic)
+    photo: cs.webp
+
+  - name: Christian Porras, PhD
+    short: Christian
+    years: 2022–2025
+    role: MD/PhD Student, PhD Research
+    now: Returned to clinical training to complete his MD/PhD
+    photo: cp.webp
+
+  - name: Nicolas Masse, PhD
+    short: Nicolas
+    years: 2023–2025
+    role: Computational Biologist
+    now: Senior Machine Learning Scientist, Deep Genomics
+    photo: nm.webp

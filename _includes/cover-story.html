@@ -1,0 +1,12 @@
+<article class="cover-story">
+  <a class="cover-story-image" href="{{ include.post.url | relative_url }}" tabindex="-1" aria-hidden="true"><img src="{{ include.post.cover_image | relative_url }}" alt="" width="440" height="584" loading="lazy"></a>
+  <div class="cover-story-copy">
+<p class="eyebrow">{{ include.post.journal }} <span>· Cover story</span>
+</p>
+<h3><a href="{{ include.post.url | relative_url }}">{{ include.post.title }}</a>
+</h3>
+<p>{{ include.post.card_summary }}</p>
+<div class="story-bottom"><time datetime="{{ include.post.date | date_to_xmlschema }}">{{ include.post.date | date: '%B %Y' }}</time><a class="arrow-link" href="{{ include.post.url | relative_url }}" aria-label="Read {{ include.post.title }}">↗</a>
+</div>
+</div>
+</article>

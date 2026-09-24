@@ -1,0 +1,67 @@
+---
+title: Resources
+heading: Built for discovery.<br>Shared for everyone.
+eyebrow: Software & data
+lede: Open tools, reproducible analyses and datasets that help the research community ask new questions.
+permalink: /software/
+---
+<section class="section">
+<div class="wrap">
+<div class="section-head">
+<h2>Software &amp; analysis</h2>
+<a class="text-link" href="{{ site.links.github }}">Lee Lab on GitHub ↗</a>
+</div>
+<div class="resource-grid">{% for tool in site.data.software.ours %}
+<article class="resource">
+<p class="eyebrow">{{ tool.lang }}{% if tool.license %} · {{ tool.license }}{% endif %}</p>
+<h3><a href="{{ tool.url }}">{{ tool.name | escape }} <span aria-hidden="true">↗</span></a>
+</h3>
+<p>{{ tool.use | escape }}</p>
+<p class="resource-credit">{{ tool.maker | escape }}</p>
+<div class="resource-links"><a href="{{ tool.url }}">Code ↗</a>{% if tool.paper %}<a href="https://doi.org/{{ tool.paper }}">Paper ↗</a>{% endif %}</div>
+</article>
+{% endfor %}</div>
+</div>
+</section>
+<section class="section section-tint">
+<div class="wrap">
+<div class="section-head">
+<div>
+<p class="eyebrow">Explore the data</p>
+<h2>A foundation for new questions.</h2>
+</div>
+</div>
+<div class="resource-grid">{% for data in site.data.software.data %}
+<article class="resource">
+<h3><a href="{{ data.url }}">{{ data.name | escape }} ↗</a>
+</h3>
+<p>{{ data.use | escape }}</p>
+</article>
+{% endfor %}</div>
+</div>
+</section>
+<section class="section">
+<div class="wrap">
+<div class="section-head">
+<div>
+<p class="eyebrow">From our collaborators</p>
+<h2>A shared toolkit</h2>
+</div>
+</div>
+<div class="resource-grid">{% for tool in site.data.software.collaborators %}
+<article class="resource">
+<p class="eyebrow">{{ tool.lang }}</p>
+<h3><a href="{{ tool.url }}">{{ tool.name | escape }} ↗</a>
+</h3>
+<p>{{ tool.use | escape }}</p>
+<p class="resource-credit">{{ tool.maker | escape }}</p>
+</article>
+{% endfor %}</div>
+<div class="earlier-tools">
+<h3>Earlier tools &amp; contributions</h3>
+<ul class="simple-list">{% for tool in site.data.software.earlier %}
+<li><a href="{{ tool.url }}">{{ tool.name | escape }}</a> — {{ tool.note }}</li>
+{% endfor %}</ul>
+</div>
+</div>
+</section>

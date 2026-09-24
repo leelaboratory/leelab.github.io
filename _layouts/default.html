@@ -1,20 +1,10 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
-
-  {%- include head.html -%}
-
-  <body>
-
-    {%- include header.html -%}
-
-    <div class="py-5">
-      <div class="container page-content">
-          {{ content }}
-      </div>
-    </div>
-
-    {%- include footer.html -%}
-
+<html lang="en" class="no-js">
+  {% include head.html %}
+  <body class="page-{{ page.body_class | default: 'default' }}">
+    <a class="skip-link" href="#main">Skip to content</a>
+    {% include header.html %}
+    <main id="main" tabindex="-1">{{ content }}</main>
+    {% include footer.html %}
   </body>
-
 </html>

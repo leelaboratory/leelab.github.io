@@ -1,0 +1,15 @@
+- id: atlas
+  topic: "Population-scale single-cell atlases"
+  question: "What changes in each cell type across brain disorders—and what do those disorders share?"
+- id: myeloid
+  topic: "Microglia & brain immunity"
+  question: "How do the brain’s immune cells change with age and Alzheimer’s disease?"
+- id: genetics
+  topic: "Cell-type-specific genetics"
+  question: "In which cells do genetic risk variants for brain disorders exert their effects?"
+- id: ml
+  topic: "Machine learning for genomics"
+  question: "How can computational models reveal disease-relevant cells and regulatory mechanisms?"
+- id: regulatory
+  topic: "Gene regulation & networks"
+  question: "Which regulatory programs change in disease, and what drives those changes?"

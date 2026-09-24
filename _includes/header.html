@@ -1,41 +1,17 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-  <div class="container">
-    <a class="navbar-brand" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
-
-    {%- assign page_paths = site.header_pages -%}
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
-        {%- for path in page_paths -%}
-        {%- assign my_page = site.pages | where: "path", path | first -%}
-        {%- if my_page.title -%}
-        <li class="nav-item">
-          <a class="nav-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-        </li>
-        {%- endif -%}
-        {% endfor -%}
-        <li class="nav-item">
-          <a class="nav-link" href="/research">Research</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/team">Team</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/jobs">Jobs</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://scholar.google.com/citations?user=_a8xSwwAAAAJ">Papers</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://github.com/leelaboratory">GitHub</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://twitter.com/leelaboratory">Twitter</a>
-        </li>
-      </ul>
-    </div>
+<header class="site-header">
+  <div class="wrap masthead">
+    <a class="brand" href="{{ '/' | relative_url }}" aria-label="Lee Lab home">lee<span>lab</span><span class="brand-dot">.</span></a>
+    <span class="masthead-description">Single Cell<br>Neurogenomics Group</span>
+    <a class="institution" href="{{ site.links.cdn }}">Icahn School of Medicine<br><strong>at Mount Sinai</strong></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu <span aria-hidden="true">☰</span></button>
   </div>
-</nav>
+  <div class="nav-border">
+<nav class="wrap nav" id="site-nav" aria-label="Main navigation">
+    <ul>{% for item in site.nav %}
+<li{% if item.button %} class="nav-join"{% endif %}><a href="{{ item.url | relative_url }}"{% if page.url contains item.url %} aria-current="page"{% endif %}>{{ item.label }}{% if item.button %}<span aria-hidden="true">↗</span>{% endif %}</a>
+</li>
+{% endfor %}</ul>
+    <a class="nav-pi" href="{{ '/pi/' | relative_url }}"{% if page.url == '/pi/' %} aria-current="page"{% endif %}>Donghoon Lee, PhD <span aria-hidden="true">↗</span></a>
+  </nav>
+</div>
+</header>

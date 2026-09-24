@@ -1,19 +1,39 @@
-<div class="py-5 border-top">
-  <div class="container">
-
-    <p class="h5 mb-3" align="center">
-      <a href="{{ site.github.repository_url }}">© 2020 Lee Lab</a>
-    </p>
-    
-    <div class="row">
-      <div class="col-sm text-center">
-        <ul class="list-unstyled">
-          <li>
-            <a href="mailto:admin@leelab.us">admin@leelab.us</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-
-  </div>
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div><a class="brand" href="{{ '/' | relative_url }}">lee<span>lab</span><span class="brand-dot">.</span></a>
+<p>Single Cell Neurogenomics Group<br>Center for Disease Neurogenomics<br>Icahn School of Medicine at Mount Sinai</p>
 </div>
+    <div>
+<h2>Explore</h2>
+<ul>
+<li><a href="{{ '/research/' | relative_url }}">Our research</a>
+</li>
+<li><a href="{{ '/pi/' | relative_url }}">Donghoon Lee</a>
+</li>
+<li><a href="{{ '/team/' | relative_url }}">Our people</a>
+</li>
+<li><a href="{{ '/jobs/' | relative_url }}">Join the lab</a>
+</li>
+</ul>
+</div>
+    <div>
+<h2>Connect</h2>
+<ul>
+<li><a href="mailto:{{ site.email }}">{{ site.email }}</a>
+</li>
+<li><a href="{{ site.links.scholar }}">Google Scholar ↗</a>
+</li>
+<li><a href="{{ site.links.github }}">GitHub ↗</a>
+</li>
+<li><a href="{{ site.links.twitter }}">X / Twitter ↗</a>
+</li>
+</ul>
+</div>
+    <div>
+<h2>Find us</h2>
+<address>{{ site.address.building }}<br>{{ site.address.street }}<br>{{ site.address.city }}</address><a href="{{ site.address.map }}">Directions ↗</a>
+</div>
+  </div>
+  <div class="wrap footer-base"><span>© {{ site.time | date: '%Y' }} Lee Lab</span><span>Understanding the brain, one cell at a time.</span><a href="{{ '/credits/' | relative_url }}">Image credits</a>
+</div>
+</footer>

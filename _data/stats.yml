@@ -1,0 +1,16 @@
+- value: 6320459
+  display: "6.3M"
+  label: Nuclei in the PsychAD atlas
+  source: https://doi.org/10.1038/s41586-025-09573-z
+- value: 1494
+  display: "1,494"
+  label: Brain donors
+  source: https://doi.org/10.1038/s41586-025-09573-z
+- value: 65
+  display: "65"
+  label: Cell subtypes
+  source: https://doi.org/10.1038/s41586-025-09573-z
+- value: 8
+  display: "8"
+  label: Brain disorders compared
+  source: https://doi.org/10.1038/s41586-025-09573-z

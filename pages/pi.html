@@ -1,0 +1,97 @@
+---
+title: Donghoon Lee, PhD
+heading: Donghoon Lee, PhD
+eyebrow: Principal investigator
+lede: Computational biologist. Method developer. Mentor.
+permalink: /pi/
+image: /assets/img/team/dl.webp
+---
+<section class="section">
+<div class="wrap pi-profile">
+<aside class="profile-sidebar"><img src="{{ '/assets/img/team/dl.webp' | relative_url }}" alt="Donghoon Lee" width="360" height="360">
+<p class="eyebrow">Icahn School of Medicine at Mount Sinai</p>
+<p><strong>Assistant Professor</strong><br>Psychiatry<br>Genetics and Genomic Sciences</p>
+<p><strong>Director</strong><br>Single Cell Neurogenomics Group</p>
+<a class="button" href="{{ site.links.cv }}">Curriculum vitae ↗</a>
+<ul class="simple-list">
+<li><a href="mailto:donghoon.lee@mssm.edu">Email Donghoon ↗</a>
+</li>
+<li><a href="{{ site.links.scholar }}">Google Scholar ↗</a>
+</li>
+<li><a href="{{ site.links.orcid }}">ORCID ↗</a>
+</li>
+<li><a href="{{ site.links.profile }}">Mount Sinai profile ↗</a>
+</li>
+</ul>
+</aside>
+<div class="prose">
+<p class="eyebrow">Research &amp; perspective</p>
+<h2>Decoding disease<br>at cellular resolution.</h2>
+      <p>Donghoon Lee is an Assistant Professor of Psychiatry and of Genetics and Genomic Sciences at the Icahn School of Medicine at Mount Sinai. He directs the Single Cell Neurogenomics Group in the Center for Disease Neurogenomics. His group develops computational and machine learning methods for population-scale single-cell genomics and uses them to find the cell types, genes and regulatory programs behind neurodegenerative and neuropsychiatric disorders.</p>
+      <p>He is first and co-corresponding author of the PsychAD cross-disorder atlas (<i>Nature</i>, 2026), a single-nucleus map of 6.3 million nuclei from 1,494 donors, and of FreshMG (<i>Nature Genetics</i>, 2026), an atlas of human microglia and perivascular macrophages in aging and Alzheimer's disease. Both papers were cover stories in September 2026, and he made the <i>Nature Genetics</i> cover image himself.</p>
+      <p>He trained in computational biology with Mark Gerstein at Yale (PhD, 2019). There he built STARRPeaker for ENCODE, developed ESPRNN for splicing prediction and contributed to the ENCODE and Pan-Cancer Analysis of Whole Genomes (PCAWG) consortia. Before graduate school he was a senior software engineer at the National Center for Biotechnology Information and a scientist at the National Cancer Center in Korea. He holds BS and MS degrees in biomedical engineering from Washington University in St. Louis.</p>
+    <div class="profile-highlight">
+<p class="eyebrow">September 2026</p>
+<h3>Two cover papers. A shared scientific vision.</h3>
+<p>First and co-corresponding author of the PsychAD flagship in <i>Nature</i> and FreshMG in <i>Nature Genetics</i>.</p>
+<a class="text-link" href="{{ '/news/' | relative_url }}">Explore the cover stories ↗</a>
+</div>
+</div>
+</div>
+</section>
+<section class="section section-tint">
+<div class="wrap two-column">
+<div>
+<p class="eyebrow">Experience &amp; education</p>
+<h2>From software<br>to cellular science.</h2>
+</div>
+<ol class="career-timeline">{% for role in site.data.career %}
+<li><span>{{ role.years }}</span>
+<div>
+<h3>{{ role.title | escape }}</h3>
+<p>{{ role.org | escape }}</p>
+{% if role.note %}
+<p class="small muted">{{ role.note | escape }}</p>
+{% endif %}</div>
+</li>
+{% endfor %}</ol>
+</div>
+</section>
+<section class="section">
+<div class="wrap two-column">
+<div>
+<p class="eyebrow">Research support</p>
+<h2>Funding</h2>
+      <ul class="cursor-list">
+        <li><strong>R01AG082185</strong> (NIH/NIA), 2023–2028. The adaptive-innate immune interactome across multiple tissues in Alzheimer's disease. Multiple PI.</li>
+      </ul>
+      <p class="muted">The PsychAD project is supported by NIH/NIA R01AG067025 (PI: Panos Roussos).</p>
+    </div>
+<div>
+<p class="eyebrow">Mentorship in practice</p>
+<h2>Trainee-led science</h2>
+      <ul class="cursor-list">
+        <li>Tereza Clarence (postdoc): first and co-corresponding author, <a href="https://doi.org/10.1038/s41588-025-02083-8"><i>Nature Genetics</i> 2025</a>
+</li>
+        <li>Christian Porras and Collin Spencer (former graduate students): co-first authors, <a href="https://doi.org/10.1038/s41588-026-02716-6">FreshMG, <i>Nature Genetics</i> 2026</a>
+</li>
+        <li>Collin Spencer: first author, <a href="https://doi.org/10.64898/2026.02.19.26346666">cognitive resilience preprint, 2026</a>
+</li>
+        <li>Nicolas Masse (computational biologist, 2023–2025): co-first author, <a href="https://doi.org/10.1038/s41586-025-09573-z">PsychAD flagship, <i>Nature</i> 2026</a>; now at Deep Genomics</li>
+      </ul>
+    </div>
+</div>
+</section>
+<section class="section section-tint">
+<div class="wrap">
+<div class="section-head">
+<div>
+<p class="eyebrow">Selected work</p>
+<h2>Research contributions</h2>
+</div>
+<a class="text-link" href="{{ '/publications/' | relative_url }}">Full publication record ↗</a>
+</div>
+<ol class="publication-list">{% assign selected = site.data.publications | where_exp: 'p', 'p.featured' | sort: 'featured' %}{% for p in selected limit:3 %}{% include pub.html p=p %}{% endfor %}</ol>
+</div>
+</section>
+{% include join-banner.html %}

@@ -1,0 +1,831 @@
+- title: "Single-cell atlas of transcriptomic vulnerability across brain disorders"
+  authors: "<strong>Lee D</strong>, Koutrouli M, <span class=\"lab\">Masse NY</span>, …, Roussos P"
+  journal: "Nature"
+  date: 2026-09-23
+  year: 2026
+  citation: "657(8133):988-1002"
+  doi: 10.1038/s41586-025-09573-z
+  role: first
+  tags: [cofirst, first, lead, corresponding, cover, psychad]
+  list: main
+  zone: atlas
+  cover: "Nature cover, 24 Sep 2026"
+  code: "https://github.com/DiseaseNeuroGenomics/PsychADxD"
+  free: "https://rdcu.be/LmSAujooL8ua"
+  featured: 1
+
+- title: "Single-nucleus transcriptome-wide association study of human brain disorders"
+  authors: "Venkatesh S, Kosoy R, Wu Z, …, <strong>Lee D</strong>, …, Roussos P"
+  journal: "Nature"
+  date: 2026-09-23
+  year: 2026
+  citation: "657(8133):1016-1026"
+  doi: 10.1038/s41586-026-10836-6
+  role: coauthor
+  tags: [psychad]
+  list: main
+  zone: genetics
+  featured: 4
+
+- title: "Lifespan single-cell transcriptomic atlas of the human prefrontal cortex"
+  authors: "Yang H, <span class=\"lab\">Clarence T</span>, Scott MR, …, <strong>Lee D</strong>, …, Roussos P"
+  journal: "Nature"
+  date: 2026-09-23
+  year: 2026
+  citation: "657(8133):1003-1015"
+  doi: 10.1038/s41586-026-10271-7
+  role: coauthor
+  tags: [psychad]
+  list: main
+  zone: atlas
+  code: "https://github.com/DiseaseNeuroGenomics/DLPFC_Lifespan_Atlas"
+  featured: 5
+
+- title: "Single-nucleus atlas of cell-type specific genetic regulation in the human brain"
+  authors: "Zeng B, Yang H, Prashant NM, …, <strong>Lee D</strong>, …, Roussos P"
+  journal: "Nature Genetics"
+  date: 2026-09-23
+  year: 2026
+  citation: ""
+  doi: 10.1038/s41588-026-02733-5
+  role: coauthor
+  tags: [psychad]
+  list: main
+  zone: genetics
+  code: "https://github.com/DiseaseNeuroGenomics/nps_ad"
+  featured: 6
+
+- title: "AI-based characterization of Alzheimer’s disease phenotypes from population-scale single-cell data"
+  authors: "He C, Li AZ, Hanthanan Arachchilage K, …, <strong>Lee D</strong>, …, Wang D"
+  journal: "Nature Medicine"
+  date: 2026-09-23
+  year: 2026
+  citation: ""
+  doi: 10.1038/s41591-025-04128-1
+  role: coauthor
+  tags: [psychad]
+  list: main
+  zone: ml
+  code: "https://github.com/daifengwanglab/PASCode"
+  featured: 7
+
+- title: "Efficient differential expression analysis of large-scale single-cell transcriptomics data using Dreamlet"
+  authors: "Hoffman GE, <strong>Lee D</strong>, Bendl J, …, Roussos P"
+  journal: "Nature Communications"
+  date: 2026-09-23
+  year: 2026
+  citation: "17(1):9597"
+  doi: 10.1038/s41467-026-75680-8
+  role: coauthor
+  tags: [psychad]
+  list: main
+  zone: ml
+  code: "https://bioconductor.org/packages/dreamlet"
+  featured: 8
+
+- title: "Personalized single-cell transcriptomics reveals molecular diversity in Alzheimer’s disease"
+  authors: "Chandrashekar PB, Alatkar SA, Cohen Kalafut N, …, <strong>Lee D</strong>, …, Wang D"
+  journal: "Nature Communications"
+  date: 2026-09-23
+  year: 2026
+  citation: "17(1):9596"
+  doi: 10.1038/s41467-026-72310-1
+  role: coauthor
+  tags: [psychad]
+  list: main
+  zone: ml
+  code: "https://github.com/daifengwanglab/iBrainMap"
+
+- title: "Plasticity of human microglia and brain perivascular macrophages in aging and Alzheimer’s disease"
+  authors: "<strong>Lee D</strong>, Vicari JM, <span class=\"lab\">Porras C</span>, …, Roussos P"
+  journal: "Nature Genetics"
+  date: 2026-08-11
+  year: 2026
+  citation: "58(9):2152-2163"
+  doi: 10.1038/s41588-026-02716-6
+  role: first
+  tags: [cofirst, first, lead, corresponding, cover]
+  list: main
+  zone: myeloid
+  cover: "Nature Genetics cover, Sep 2026"
+  code: "https://github.com/DiseaseNeuroGenomics/scMyeloidAD"
+  featured: 2
+
+- title: "SECmeres outperform extracellular vesicles as potential blood RNA biomarkers for Alzheimer’s disease"
+  authors: "Gonzalez-Kozlova E, Tichkule S, Nose Y, …, <strong>Lee D</strong>, …, Dogra N"
+  journal: "Nature Communications"
+  date: 2026-06-22
+  year: 2026
+  citation: "17(1):5453"
+  doi: 10.1038/s41467-026-74541-8
+  role: coauthor
+  tags: []
+  list: main
+
+- title: "Gene regulatory programs of cognitive resilience and pathogenesis in Alzheimer’s disease"
+  authors: "<span class=\"lab\">Spencer C</span>, Prashant NM, PsychAD Consortium, Bendl J, Hoffman GE, Fullard JF, <strong>Lee D</strong>, Roussos P"
+  journal: "medRxiv"
+  date: 2026-02-26
+  year: 2026
+  citation: ""
+  doi: 10.64898/2026.02.19.26346666
+  role: coauthor
+  tags: [preprint, trainee]
+  list: main
+  zone: regulatory
+
+- title: "Alzheimer’s disease transcriptional landscape in ex vivo human microglia"
+  authors: "Kosoy R, Fullard JF, Bendl J, …, <strong>Lee D</strong>, …, Roussos P"
+  journal: "Nature Neuroscience"
+  date: 2025-08-04
+  year: 2025
+  citation: "28(9):1830-1843"
+  doi: 10.1038/s41593-025-02020-2
+  role: coauthor
+  tags: []
+  list: main
+  zone: myeloid
+
+- title: "A Transcriptomic Roadmap of Parkinson’s Disease Progression at Single Cell Resolution"
+  authors: "<span class=\"lab\">Clarence T</span>, <span class=\"lab\">Masse N</span>, <span class=\"lab\">Porras C</span>, …, <strong>Lee D</strong>, …, Roussos P"
+  journal: "medRxiv"
+  date: 2025-07-30
+  year: 2025
+  citation: ""
+  doi: 10.1101/2025.07.30.25332436
+  role: coauthor
+  tags: [preprint, trainee]
+  list: main
+  zone: atlas
+
+- title: "A map of enhancer regions in primary human neural progenitor cells using capture STARR-seq"
+  authors: "Gaynor-Gillett SC, Cheng L, Shi M, …, <strong>Lee D</strong>, …, White KP"
+  journal: "Genome Research"
+  date: 2025-07-11
+  year: 2025
+  citation: "35(8):1887-1901"
+  doi: 10.1101/gr.279584.124
+  role: coauthor
+  tags: []
+  list: main
+  zone: regulatory
+
+- title: "Population-scale cross-disorder atlas of the human prefrontal cortex at single-cell resolution"
+  authors: "Fullard JF, Prashant N, <strong>Lee D</strong>, …, Roussos P"
+  journal: "Scientific Data"
+  date: 2025-06-06
+  year: 2025
+  citation: "12(1):954"
+  doi: 10.1038/s41597-025-04687-5
+  role: cofirst
+  tags: [cofirst, lead, psychad]
+  list: main
+  zone: atlas
+  featured: 3
+
+- title: "Multiomic single-cell profiling identifies critical regulators of postnatal brain"
+  authors: "<span class=\"lab\">Clarence T</span>, Bendl J, <span class=\"lab\">Cao X</span>, …, <strong>Lee D</strong>, Roussos P"
+  journal: "Nature Genetics"
+  date: 2025-02-17
+  year: 2025
+  citation: "57(3):591-603"
+  doi: 10.1038/s41588-025-02083-8
+  role: coauthor
+  tags: [trainee]
+  list: main
+  zone: regulatory
+  featured: 10
+
+- title: "Cholesterol Dysregulation in APOE4 Astrocytes Promotes α-Synuclein Pathology in miBrains, a Human Brain Tissue Model"
+  authors: "Mesentier-Louro LA, Goldman C, Gaese S, …, <strong>Lee D</strong>, …, Blanchard JW"
+  journal: "bioRxiv"
+  date: 2025-02-09
+  year: 2025
+  citation: ""
+  doi: 10.1101/2025.02.09.637107
+  role: coauthor
+  tags: [preprint]
+  list: main
+
+- title: "A multi-region single nucleus transcriptomic atlas of Parkinson’s disease"
+  authors: "Prashant NM, Fullard JF, <span class=\"lab\">Clarence T</span>, …, <strong>Lee D</strong>, …, Roussos P"
+  journal: "Scientific Data"
+  date: 2024-11-23
+  year: 2024
+  citation: "11(1):1274"
+  doi: 10.1038/s41597-024-04117-y
+  role: coauthor
+  tags: []
+  list: main
+  zone: atlas
+
+- title: "Myocardial infarction augments sleep to limit cardiac inflammation and damage"
+  authors: "Huynh P, Hoffmann JD, Gerhardt T, …, <strong>Lee D</strong>, …, McAlpine CS"
+  journal: "Nature"
+  date: 2024-10-30
+  year: 2024
+  citation: "635(8037):168-177"
+  doi: 10.1038/s41586-024-08100-w
+  role: coauthor
+  tags: []
+  list: main
+
+- title: "Beyond memory impairment: the complex phenotypic landscape of Alzheimer’s disease"
+  authors: "Argyriou S, Fullard JF, Krivinko JM, <strong>Lee D</strong>, Wingo TS, Wingo AP, Sweet RA, Roussos P"
+  journal: "Trends in Molecular Medicine"
+  date: 2024-08
+  year: 2024
+  citation: "30(8):713-722"
+  doi: 10.1016/j.molmed.2024.04.016
+  role: coauthor
+  tags: []
+  list: main
+
+- title: "Transcriptomic sex differences in postmortem brain samples from patients with psychiatric disorders"
+  authors: "Xia Y, Xia C, Jiang Y, …, <strong>Lee D</strong>, …, Zintel TM"
+  journal: "Science Translational Medicine"
+  date: 2024-05-29
+  year: 2024
+  citation: "16(749):eadh9974"
+  doi: 10.1126/scitranslmed.adh9974
+  role: coauthor
+  tags: [raid]
+  list: raid
+  zone: atlas
+
+- title: "Genetic regulation of cell type–specific chromatin accessibility shapes brain disease etiology"
+  authors: "Zeng B, Bendl J, Deng C, <strong>Lee D</strong>, …, Roussos P"
+  journal: "Science"
+  date: 2024-05-24
+  year: 2024
+  citation: "384(6698):eadh4265"
+  doi: 10.1126/science.adh4265
+  role: coauthor
+  tags: []
+  list: main
+  zone: genetics
+  featured: 9
+
+- title: "Evaluating performance and applications of sample-wise cell deconvolution methods on human brain transcriptomic data"
+  authors: "Dai R, Chu T, Zhang M, …, <strong>Lee D</strong>, …, Liu C"
+  journal: "Science Advances"
+  date: 2024-05-24
+  year: 2024
+  citation: "10(21):eadh2588"
+  doi: 10.1126/sciadv.adh2588
+  role: coauthor
+  tags: []
+  list: main
+  zone: atlas
+
+- title: "Single-cell genomics and regulatory networks for 388 human brains"
+  authors: "Emani PS, Liu JJ, Clarke D, …, <strong>Lee D</strong>, …, Zintel TM"
+  journal: "Science"
+  date: 2024-05-24
+  year: 2024
+  citation: "384(6698):eadi5199"
+  doi: 10.1126/science.adi5199
+  role: coauthor
+  tags: [raid]
+  list: raid
+  zone: atlas
+
+- title: "Single-cell multi-cohort dissection of the schizophrenia transcriptome"
+  authors: "Ruzicka WB, Mohammadi S, Fullard JF, …, <strong>Lee D</strong>, …, Zintel TM"
+  journal: "Science"
+  date: 2024-05-24
+  year: 2024
+  citation: "384(6698):eadg5136"
+  doi: 10.1126/science.adg5136
+  role: coauthor
+  tags: [raid]
+  list: raid
+  zone: atlas
+
+- title: "Multi-omic profiling of the developing human cerebral cortex at the single-cell level"
+  authors: "Zhu K, Bendl J, Rahman S, …, <strong>Lee D</strong>, …, Roussos P"
+  journal: "Science Advances"
+  date: 2023-10-13
+  year: 2023
+  citation: "9(41):eadg3754"
+  doi: 10.1126/sciadv.adg3754
+  role: coauthor
+  tags: []
+  list: main
+  zone: regulatory
+
+- title: "Interleukin-3 coordinates glial-peripheral immune crosstalk to incite multiple sclerosis"
+  authors: "Kiss MG, Mindur JE, Yates AG, <strong>Lee D</strong>, …, McAlpine CS"
+  journal: "Immunity"
+  date: 2023-07
+  year: 2023
+  citation: "56(7):1502-1514.e8"
+  doi: 10.1016/j.immuni.2023.04.013
+  role: coauthor
+  tags: []
+  list: main
+  zone: myeloid
+
+- title: "Applications of artificial intelligence−machine learning for detection of stress: a critical overview"
+  authors: "Mentis AFA, <strong>Lee D</strong>, Roussos P"
+  journal: "Molecular Psychiatry"
+  date: 2023-04-05
+  year: 2023
+  citation: "29(6):1882-1894"
+  doi: 10.1038/s41380-023-02047-6
+  role: coauthor
+  tags: []
+  list: main
+  zone: ml
+
+- title: "Mapping genomic loci implicates genes and synaptic biology in schizophrenia"
+  authors: "Trubetskoy V, Pardiñas AF, Qi T, …, <strong>Lee D</strong>, …, van Os J"
+  journal: "Nature"
+  date: 2022-04-08
+  year: 2022
+  citation: "604(7906):502-508"
+  doi: 10.1038/s41586-022-04434-5
+  role: coauthor
+  tags: [raid]
+  list: raid
+  zone: genetics
+
+- title: "Bayesian structural time series for biomedical sensor data: A flexible modeling framework for evaluating interventions"
+  authors: "Liu J, Spakowicz DJ, Ash GI, …, <strong>Lee D</strong>, …, Gerstein M"
+  journal: "PLOS Computational Biology"
+  date: 2021-08-23
+  year: 2021
+  citation: "17(8):e1009303"
+  doi: 10.1371/journal.pcbi.1009303
+  role: coauthor
+  tags: []
+  list: main
+  zone: ml
+
+- title: "DECODE: a Deep-learning framework for Condensing enhancers and refining boundaries with large-scale functional assays"
+  authors: "Chen Z, Zhang J, Liu J, Dai Y, <strong>Lee D</strong>, Min MR, Xu M, Gerstein M"
+  journal: "Bioinformatics"
+  date: 2021-07-12
+  year: 2021
+  citation: "37(Supplement_1):i280-i288"
+  doi: 10.1093/bioinformatics/btab283
+  role: coauthor
+  tags: []
+  list: main
+  zone: ml
+  code: "http://decode.gersteinlab.org"
+
+- title: "SCAN-ATAC-Sim: a scalable and efficient method for simulating single-cell ATAC-seq data from bulk-tissue experiments"
+  authors: "Chen Z, Zhang J, Liu J, Zhang Z, Zhu J, <strong>Lee D</strong>, Xu M, Gerstein M"
+  journal: "Bioinformatics"
+  date: 2021-01-20
+  year: 2021
+  citation: "37(12):1756-1758"
+  doi: 10.1093/bioinformatics/btaa1039
+  role: coauthor
+  tags: []
+  list: main
+  zone: ml
+  code: "https://github.com/gersteinlab/scan-atac-sim"
+
+- title: "STARRPeaker: uniform processing and accurate identification of STARR-seq active regions"
+  authors: "<strong>Lee D</strong>, Shi M, Moran J, …, Gerstein M"
+  journal: "Genome Biology"
+  date: 2020-12-08
+  year: 2020
+  citation: "21(1):298"
+  doi: 10.1186/s13059-020-02194-x
+  role: first
+  tags: [first, lead]
+  list: main
+  zone: regulatory
+  code: "https://github.com/gersteinlab/starrpeaker"
+  featured: 12
+
+- title: "NIMBus: a negative binomial regression based Integrative Method for mutation Burden Analysis"
+  authors: "Zhang J, Liu J, McGillivray P, Yi C, Lochovsky L, <strong>Lee D</strong>, Gerstein M"
+  journal: "BMC Bioinformatics"
+  date: 2020-10-22
+  year: 2020
+  citation: "21(1):474"
+  doi: 10.1186/s12859-020-03758-1
+  role: coauthor
+  tags: []
+  list: main
+  code: "https://github.com/gersteinlab/nimbus"
+
+- title: "Retrospective evaluation of whole exome and genome mutation calls in 746 cancer samples"
+  authors: "Bailey MH, Meyerson WU, Dursi LJ, …, <strong>Lee D</strong>, …, von Mering C"
+  journal: "Nature Communications"
+  date: 2020-09-21
+  year: 2020
+  citation: "11(1):4748"
+  doi: 10.1038/s41467-020-18151-y
+  role: coauthor
+  tags: [raid]
+  list: raid
+
+- title: "Sex differences in oncogenic mutational processes"
+  authors: "Li CH, Prokopec SD, Sun RX, …, <strong>Lee D</strong>, …, von Mering C"
+  journal: "Nature Communications"
+  date: 2020-08-28
+  year: 2020
+  citation: "11(1):4330"
+  doi: 10.1038/s41467-020-17359-2
+  role: coauthor
+  tags: [raid]
+  list: raid
+
+- title: "RADAR: annotation and prioritization of variants in the post-transcriptional regulome of RNA-binding proteins"
+  authors: "Zhang J, Liu J, <strong>Lee D</strong>, Feng JJ, Lochovsky L, Lou S, Rutenberg-Schoenberg M, Gerstein M"
+  journal: "Genome Biology"
+  date: 2020-07-30
+  year: 2020
+  citation: "21(1):151"
+  doi: 10.1186/s13059-020-01979-4
+  role: coauthor
+  tags: []
+  list: main
+  zone: regulatory
+  code: "https://github.com/gersteinlab/RADAR"
+
+- title: "An integrative ENCODE resource for cancer genomics"
+  authors: "Zhang J, <strong>Lee D</strong>, Dhiman V, …, Gerstein M"
+  journal: "Nature Communications"
+  date: 2020-07-29
+  year: 2020
+  citation: "11(1):3696"
+  doi: 10.1038/s41467-020-14743-w
+  role: coauthor
+  tags: []
+  list: main
+  zone: regulatory
+
+- title: "Expanded encyclopaedias of DNA elements in the human and mouse genomes"
+  authors: "The ENCODE Project Consortium, Abascal F, Acosta R, …, <strong>Lee D</strong>, …, Weng Z"
+  journal: "Nature"
+  date: 2020-07-29
+  year: 2020
+  citation: "583(7818):699-710"
+  doi: 10.1038/s41586-020-2493-4
+  role: coauthor
+  tags: [raid]
+  list: raid
+
+- title: "Perspectives on ENCODE"
+  authors: "The ENCODE Project Consortium, Abascal F, Acosta R, …, <strong>Lee D</strong>, …, Myers RM"
+  journal: "Nature"
+  date: 2020-07-29
+  year: 2020
+  citation: "583(7818):693-698"
+  doi: 10.1038/s41586-020-2449-8
+  role: coauthor
+  tags: [raid]
+  list: raid
+
+- title: "TopicNet: a framework for measuring transcriptional regulatory network change"
+  authors: "Lou S, Li T, Kong X, Zhang J, Liu J, <strong>Lee D</strong>, Gerstein M"
+  journal: "Bioinformatics"
+  date: 2020-07-13
+  year: 2020
+  citation: "36(Supplement_1):i474-i481"
+  doi: 10.1093/bioinformatics/btaa403
+  role: coauthor
+  tags: []
+  list: main
+  zone: regulatory
+  code: "https://github.com/gersteinlab/topicnet"
+
+- title: "DiNeR: a Differential graphical model for analysis of co-regulation Network Rewiring"
+  authors: "Zhang J, Liu J, <strong>Lee D</strong>, Lou S, Chen Z, Gürsoy G, Gerstein M"
+  journal: "BMC Bioinformatics"
+  date: 2020-07-02
+  year: 2020
+  citation: "21(1):281"
+  doi: 10.1186/s12859-020-03605-3
+  role: coauthor
+  tags: []
+  list: main
+  zone: regulatory
+
+- title: "Epigenome-based splicing prediction using a recurrent neural network"
+  authors: "<strong>Lee D</strong>, Zhang J, Liu J, Gerstein M"
+  journal: "PLOS Computational Biology"
+  date: 2020-06-25
+  year: 2020
+  citation: "16(6):e1008006"
+  doi: 10.1371/journal.pcbi.1008006
+  role: first
+  tags: [first, lead]
+  list: main
+  zone: ml
+  code: "https://github.com/gersteinlab/esprnn"
+  featured: 11
+
+- title: "A deep learning system accurately classifies primary and metastatic cancers using passenger mutation patterns"
+  authors: "Jiao W, Atwal G, Polak P, …, <strong>Lee D</strong>, …, von Mering C"
+  journal: "Nature Communications"
+  date: 2020-02-05
+  year: 2020
+  citation: "11(1):728"
+  doi: 10.1038/s41467-019-13825-8
+  role: coauthor
+  tags: [raid]
+  list: raid
+
+- title: "Analyses of non-coding somatic drivers in 2,658 cancer whole genomes"
+  authors: "Rheinbay E, Nielsen MM, Abascal F, …, <strong>Lee D</strong>, …, von Mering C"
+  journal: "Nature"
+  date: 2020-02-05
+  year: 2020
+  citation: "578(7793):102-111"
+  doi: 10.1038/s41586-020-1965-x
+  role: coauthor
+  tags: [raid]
+  list: raid
+
+- title: "Cancer LncRNA Census reveals evidence for deep functional conservation of long noncoding RNAs in tumorigenesis"
+  authors: "Carlevaro-Fita J, Lanzós A, Feuerbach L, …, <strong>Lee D</strong>, …, von Mering C"
+  journal: "Communications Biology"
+  date: 2020-02-05
+  year: 2020
+  citation: "3(1):56"
+  doi: 10.1038/s42003-019-0741-7
+  role: coauthor
+  tags: [raid]
+  list: raid
+
+- title: "Combined burden and functional impact tests for cancer driver discovery using DriverPower"
+  authors: "Shuai S, PCAWG Drivers and Functional Interpretation Working Group, Abascal F, …, <strong>Lee D</strong>, …, von Mering C"
+  journal: "Nature Communications"
+  date: 2020-02-05
+  year: 2020
+  citation: "11(1):734"
+  doi: 10.1038/s41467-019-13929-1
+  role: coauthor
+  tags: [raid]
+  list: raid
+
+- title: "Comprehensive analysis of chromothripsis in 2,658 human cancers using whole-genome sequencing"
+  authors: "Cortés-Ciriano I, Lee JJK, Xi R, …, <strong>Lee D</strong>, …, von Mering C"
+  journal: "Nature Genetics"
+  date: 2020-02-05
+  year: 2020
+  citation: "52(3):331-341"
+  doi: 10.1038/s41588-019-0576-7
+  role: coauthor
+  tags: [raid]
+  list: raid
+
+- title: "Comprehensive molecular characterization of mitochondrial genomes in human cancers"
+  authors: "Yuan Y, Ju YS, Kim Y, …, <strong>Lee D</strong>, …, von Mering C"
+  journal: "Nature Genetics"
+  date: 2020-02-05
+  year: 2020
+  citation: "52(3):342-352"
+  doi: 10.1038/s41588-019-0557-x
+  role: coauthor
+  tags: [raid]
+  list: raid
+
+- title: "Disruption of chromatin folding domains by somatic genomic rearrangements in human cancer"
+  authors: "Akdemir KC, Le VT, Chandran S, …, <strong>Lee D</strong>, …, von Mering C"
+  journal: "Nature Genetics"
+  date: 2020-02-05
+  year: 2020
+  citation: "52(3):294-305"
+  doi: 10.1038/s41588-019-0564-y
+  role: coauthor
+  tags: [raid]
+  list: raid
+
+- title: "Divergent mutational processes distinguish hypoxic and normoxic tumours"
+  authors: "Bhandari V, Li CH, Bristow RG, …, <strong>Lee D</strong>, …, von Mering C"
+  journal: "Nature Communications"
+  date: 2020-02-05
+  year: 2020
+  citation: "11(1):737"
+  doi: 10.1038/s41467-019-14052-x
+  role: coauthor
+  tags: [raid]
+  list: raid
+
+- title: "Genomic basis for RNA alterations in cancer"
+  authors: "PCAWG Transcriptome Core Group, Calabrese C, Davidson NR, …, <strong>Lee D</strong>, …, von Mering C"
+  journal: "Nature"
+  date: 2020-02-05
+  year: 2020
+  citation: "578(7793):129-136"
+  doi: 10.1038/s41586-020-1970-0
+  role: coauthor
+  tags: [raid]
+  list: raid
+
+- title: "Genomic footprints of activated telomere maintenance mechanisms in cancer"
+  authors: "Sieverling L, Hong C, Koser SD, …, <strong>Lee D</strong>, …, von Mering C"
+  journal: "Nature Communications"
+  date: 2020-02-05
+  year: 2020
+  citation: "11(1):733"
+  doi: 10.1038/s41467-019-13824-9
+  role: coauthor
+  tags: [raid]
+  list: raid
+
+- title: "High-coverage whole-genome analysis of 1220 cancers reveals hundreds of genes deregulated by rearrangement-mediated cis-regulatory alterations"
+  authors: "Zhang Y, Chen F, Fonseca NA, …, <strong>Lee D</strong>, …, von Mering C"
+  journal: "Nature Communications"
+  date: 2020-02-05
+  year: 2020
+  citation: "11(1):736"
+  doi: 10.1038/s41467-019-13885-w
+  role: coauthor
+  tags: [raid]
+  list: raid
+
+- title: "Inferring structural variant cancer cell fraction"
+  authors: "Cmero M, Yuan K, Ong CS, …, <strong>Lee D</strong>, …, von Mering C"
+  journal: "Nature Communications"
+  date: 2020-02-05
+  year: 2020
+  citation: "11(1):730"
+  doi: 10.1038/s41467-020-14351-8
+  role: coauthor
+  tags: [raid]
+  list: raid
+
+- title: "Integrative pathway enrichment analysis of multivariate omics data"
+  authors: "Paczkowska M, Barenboim J, Sintupisut N, …, <strong>Lee D</strong>, …, von Mering C"
+  journal: "Nature Communications"
+  date: 2020-02-05
+  year: 2020
+  citation: "11(1):735"
+  doi: 10.1038/s41467-019-13983-9
+  role: coauthor
+  tags: [raid]
+  list: raid
+
+- title: "Pan-cancer analysis of whole genomes"
+  authors: "The ICGC/TCGA Pan-Cancer Analysis of Whole Genomes Consortium, Aaltonen LA, Abascal F, …, <strong>Lee D</strong>, …, von Mering C"
+  journal: "Nature"
+  date: 2020-02-05
+  year: 2020
+  citation: "578(7793):82-93"
+  doi: 10.1038/s41586-020-1969-6
+  role: coauthor
+  tags: [raid]
+  list: raid
+
+- title: "Pan-cancer analysis of whole genomes identifies driver rearrangements promoted by LINE-1 retrotransposition"
+  authors: "Rodriguez-Martin B, Alvarez EG, Baez-Ortega A, …, <strong>Lee D</strong>, …, von Mering C"
+  journal: "Nature Genetics"
+  date: 2020-02-05
+  year: 2020
+  citation: "52(3):306-319"
+  doi: 10.1038/s41588-019-0562-0
+  role: coauthor
+  tags: [raid]
+  list: raid
+
+- title: "Pathway and network analysis of more than 2500 whole cancer genomes"
+  authors: "Reyna MA, Haan D, Paczkowska M, …, <strong>Lee D</strong>, …, von Mering C"
+  journal: "Nature Communications"
+  date: 2020-02-05
+  year: 2020
+  citation: "11(1):729"
+  doi: 10.1038/s41467-020-14367-0
+  role: coauthor
+  tags: [raid]
+  list: raid
+
+- title: "Patterns of somatic structural variation in human cancer genomes"
+  authors: "Li Y, Roberts ND, Wala JA, …, <strong>Lee D</strong>, …, von Mering C"
+  journal: "Nature"
+  date: 2020-02-05
+  year: 2020
+  citation: "578(7793):112-121"
+  doi: 10.1038/s41586-019-1913-9
+  role: coauthor
+  tags: [raid]
+  list: raid
+
+- title: "Reconstructing evolutionary trajectories of mutation signature activities in cancer using TrackSig"
+  authors: "Rubanova Y, Shi R, Harrigan CF, …, <strong>Lee D</strong>, …, von Mering C"
+  journal: "Nature Communications"
+  date: 2020-02-05
+  year: 2020
+  citation: "11(1):731"
+  doi: 10.1038/s41467-020-14352-7
+  role: coauthor
+  tags: [raid]
+  list: raid
+
+- title: "Building a Hybrid Physical-Statistical Classifier for Predicting the Effect of Variants Related to Protein-Drug Interactions"
+  authors: "Wang B, Yan C, Lou S, …, <strong>Lee D</strong>, Gerstein M"
+  journal: "Structure"
+  date: 2019-09
+  year: 2019
+  citation: "27(9):1469-1481.e3"
+  doi: 10.1016/j.str.2019.06.001
+  role: coauthor
+  tags: []
+  list: main
+
+- title: "MicroRNA-dependent regulation of biomechanical genes establishes tissue stiffness homeostasis"
+  authors: "Moro A, Driscoll TP, Boraas LC, …, <strong>Lee D</strong>, …, Nicoli S"
+  journal: "Nature Cell Biology"
+  date: 2019-02-11
+  year: 2019
+  citation: "21(3):348-358"
+  doi: 10.1038/s41556-019-0272-y
+  role: coauthor
+  tags: []
+  list: main
+
+- title: "Network Analysis as a Grand Unifier in Biomedical Data Science"
+  authors: "McGillivray P, Clarke D, Meyerson W, Zhang J, <strong>Lee D</strong>, Gu M, Kumar S, Zhou H, Gerstein M"
+  journal: "Annual Review of Biomedical Data Science"
+  date: 2018-07-20
+  year: 2018
+  citation: "1(1):153-180"
+  doi: 10.1146/annurev-biodatasci-080917-013444
+  role: coauthor
+  tags: []
+  list: main
+
+- title: "MicroRNAs Establish Uniform Traits during the Architecture of Vertebrate Embryos"
+  authors: "Kasper DM, Moro A, Ristori E, …, <strong>Lee D</strong>, …, Nicoli S"
+  journal: "Developmental Cell"
+  date: 2017-03
+  year: 2017
+  citation: "40(6):552-565.e5"
+  doi: 10.1016/j.devcel.2017.02.021
+  role: coauthor
+  tags: []
+  list: main
+
+- title: "Oncogenic function and clinical implications of SLC3A2-NRG1 fusion in invasive mucinous adenocarcinoma of the lung"
+  authors: "Shin DH, <strong>Lee D</strong>, Wan Hong D, …, Han JY"
+  journal: "Oncotarget"
+  date: 2016-09-08
+  year: 2016
+  citation: "7(43):69450-69465"
+  doi: 10.18632/oncotarget.11913
+  role: coauthor
+  tags: []
+  list: main
+
+- title: "Intron retention is a widespread mechanism of tumor-suppressor inactivation"
+  authors: "Jung H, <strong>Lee D</strong>, Lee J, Park D, Kim YJ, Park WY, Hong D, Park PJ, Lee E"
+  journal: "Nature Genetics"
+  date: 2015-10-05
+  year: 2015
+  citation: "47(11):1242-1248"
+  doi: 10.1038/ng.3414
+  role: coauthor
+  tags: []
+  list: main
+
+- title: "A global reference for human genetic variation"
+  authors: "The 1000 Genomes Project Consortium, Corresponding authors, Auton A, …, <strong>Lee D</strong>, …, Abecasis GR"
+  journal: "Nature"
+  date: 2015-09-30
+  year: 2015
+  citation: "526(7571):68-74"
+  doi: 10.1038/nature15393
+  role: coauthor
+  tags: [raid]
+  list: raid
+
+- title: "Genetic Variations Associated with Postoperative Recurrence in Stage I Non–Small Cell Lung Cancer"
+  authors: "Yoon KA, Jung MK, <strong>Lee D</strong>, Bae K, Joo JN, Lee GK, Lee HS, Lee JS"
+  journal: "Clinical Cancer Research"
+  date: 2014-06-12
+  year: 2014
+  citation: "20(12):3272-3279"
+  doi: 10.1158/1078-0432.ccr-13-2835
+  role: coauthor
+  tags: []
+  list: main
+
+- title: "Pathway-Based Analysis Using Genome-wide Association Data from a Korean Non-Small Cell Lung Cancer Study"
+  authors: "<strong>Lee D</strong>, Lee GK, Yoon KA, Lee JS"
+  journal: "PLOS ONE"
+  date: 2013-06-06
+  year: 2013
+  citation: "8(6):e65396"
+  doi: 10.1371/journal.pone.0065396
+  role: first
+  tags: [first, lead]
+  list: main
+
+- title: "Prognostic implications of genetic variants in advanced non-small cell lung cancer: a genome-wide association study"
+  authors: "Lee Y, Yoon KA, Joo J, <strong>Lee D</strong>, Bae K, Han JY, Lee JS"
+  journal: "Carcinogenesis"
+  date: 2012-11-08
+  year: 2012
+  citation: "34(2):307-313"
+  doi: 10.1093/carcin/bgs356
+  role: coauthor
+  tags: []
+  list: main

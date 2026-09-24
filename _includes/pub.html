@@ -1,0 +1,20 @@
+{%- assign p = include.p -%}
+<li class="publication" data-pub data-tags="{{ p.tags | join: ' ' }}{% if p.featured %} featured{% endif %}">
+  <div class="publication__meta">
+    {%- if p.cover %}<span class="badge badge--cover">{{ p.cover }}</span>{% endif -%}
+    {%- if p.role == 'first' %}<span class="badge badge--first">First author</span>{% elsif p.role == 'cofirst' %}<span class="badge badge--first">Co-first author</span>{% endif -%}
+    {%- if p.tags contains 'corresponding' %}<span class="badge badge--corr">Corresponding</span>{% endif -%}
+    {%- if p.tags contains 'trainee' %}<span class="badge badge--trainee">Trainee-led</span>{% endif -%}
+    {%- if p.tags contains 'preprint' %}<span class="badge badge--preprint">Preprint</span>{% endif -%}
+    <span class="publication__journal"><i>{{ p.journal }}</i> · {{ p.year }}</span>
+  </div>
+  <h3 class="publication__title"><a href="https://doi.org/{{ p.doi }}">{{ p.title }}</a>
+</h3>
+  <p class="publication__authors">{{ p.authors }}</p>
+  <p class="publication__links">
+    <a href="https://doi.org/{{ p.doi }}">Paper</a>
+    {%- if p.free %} · <a href="{{ p.free }}">Free read</a>{% endif -%}
+    {%- if p.code %} · <a href="{{ p.code }}">Code</a>{% endif %}
+    <code class="publication__doi">doi:{{ p.doi }}</code>
+  </p>
+</li>

@@ -1,14 +1,16 @@
 ---
 layout: default
 ---
-<article>
-
-  <header>
-    <h1>{{ page.title | escape }}</h1>
-  </header>
-
-  <section>
-    {{ content }}
-  </section>
-
-</article>
+<header class="page-hero">
+<div class="wrap">
+<p class="eyebrow">{{ page.eyebrow | default: 'Lee Lab' | escape }}</p>
+<h1>{{ page.heading | default: page.title | replace: '&', '&amp;' }}</h1>
+{% if page.lede %}
+<p class="lede">{{ page.lede }}</p>
+{% endif %}</div>
+</header>
+{% if page.prose %}
+<div class="section">
+<div class="wrap prose">{{ content }}</div>
+</div>
+{% else %}{{ content }}{% endif %}
