@@ -6,7 +6,7 @@
 <h3><a href="{{ include.post.url | relative_url }}">{{ include.post.title }}</a>
 </h3>
 <p>{{ include.post.card_summary }}</p>
-<div class="story-bottom"><time datetime="{{ include.post.date | date_to_xmlschema }}">{{ include.post.date | date: '%B %Y' }}</time><a class="arrow-link" href="{{ include.post.url | relative_url }}" aria-label="Read {{ include.post.title }}">↗</a>
+<div class="story-bottom"><time datetime="{{ include.post.date | date_to_xmlschema }}">{{ include.post.date | date: '%B %Y' }}</time><a class="arrow-link" href="{{ include.post.url | relative_url }}" aria-label="Read {{ include.post.title }}">{% include arrow-up-right.html %}</a>
 </div>
 </div>
 </article>

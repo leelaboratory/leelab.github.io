@@ -21,17 +21,17 @@
 <ul>
 <li><a href="mailto:{{ site.email }}">{{ site.email }}</a>
 </li>
-<li><a href="{{ site.links.scholar }}">Google Scholar ↗</a>
+<li><a href="{{ site.links.scholar }}">Google Scholar {% include arrow-up-right.html %}</a>
 </li>
-<li><a href="{{ site.links.github }}">GitHub ↗</a>
+<li><a href="{{ site.links.github }}">GitHub {% include arrow-up-right.html %}</a>
 </li>
-<li><a href="{{ site.links.twitter }}">X / Twitter ↗</a>
+<li><a href="{{ site.links.twitter }}">X / Twitter {% include arrow-up-right.html %}</a>
 </li>
 </ul>
 </div>
     <div>
 <h2>Find us</h2>
-<address>{{ site.address.building }}<br>{{ site.address.street }}<br>{{ site.address.city }}</address><a href="{{ site.address.map }}">Directions ↗</a>
+<address>{{ site.address.building }}<br>{{ site.address.street }}<br>{{ site.address.city }}</address><a href="{{ site.address.map }}">Directions {% include arrow-up-right.html %}</a>
 </div>
   </div>
   <div class="wrap footer-base"><span>© {{ site.time | date: '%Y' }} Lee Lab</span><span>Understanding the brain, one cell at a time.</span><a href="{{ '/credits/' | relative_url }}">Image credits</a>

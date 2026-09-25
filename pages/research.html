@@ -26,7 +26,7 @@ permalink: /research/
 <div class="related-papers">
 <p class="eyebrow">Related publications</p>
 {% assign related = site.data.publications | where: 'zone', 'atlas' %}{% for p in related limit:3 %}
-<p><a href="https://doi.org/{{ p.doi }}">{{ p.title }} ↗</a><small>{{ p.journal }} · {{ p.year }}</small>
+<p><a href="https://doi.org/{{ p.doi }}">{{ p.title }} {% include arrow-up-right.html %}</a><small>{{ p.journal }} · {{ p.year }}</small>
 </p>
 {% endfor %}</div>
 </div>
@@ -45,7 +45,7 @@ permalink: /research/
 <div class="related-papers">
 <p class="eyebrow">Related publications</p>
 {% assign related = site.data.publications | where: 'zone', 'myeloid' %}{% for p in related limit:3 %}
-<p><a href="https://doi.org/{{ p.doi }}">{{ p.title }} ↗</a><small>{{ p.journal }} · {{ p.year }}</small>
+<p><a href="https://doi.org/{{ p.doi }}">{{ p.title }} {% include arrow-up-right.html %}</a><small>{{ p.journal }} · {{ p.year }}</small>
 </p>
 {% endfor %}</div>
 </div>
@@ -64,7 +64,7 @@ permalink: /research/
 <div class="related-papers">
 <p class="eyebrow">Related publications</p>
 {% assign related = site.data.publications | where: 'zone', 'genetics' %}{% for p in related limit:3 %}
-<p><a href="https://doi.org/{{ p.doi }}">{{ p.title }} ↗</a><small>{{ p.journal }} · {{ p.year }}</small>
+<p><a href="https://doi.org/{{ p.doi }}">{{ p.title }} {% include arrow-up-right.html %}</a><small>{{ p.journal }} · {{ p.year }}</small>
 </p>
 {% endfor %}</div>
 </div>
@@ -85,7 +85,7 @@ permalink: /research/
 <div class="related-papers">
 <p class="eyebrow">Related publications</p>
 {% assign related = site.data.publications | where: 'zone', 'ml' %}{% for p in related limit:3 %}
-<p><a href="https://doi.org/{{ p.doi }}">{{ p.title }} ↗</a><small>{{ p.journal }} · {{ p.year }}</small>
+<p><a href="https://doi.org/{{ p.doi }}">{{ p.title }} {% include arrow-up-right.html %}</a><small>{{ p.journal }} · {{ p.year }}</small>
 </p>
 {% endfor %}</div>
 </div>
@@ -104,7 +104,7 @@ permalink: /research/
 <div class="related-papers">
 <p class="eyebrow">Related publications</p>
 {% assign related = site.data.publications | where: 'zone', 'regulatory' %}{% for p in related limit:3 %}
-<p><a href="https://doi.org/{{ p.doi }}">{{ p.title }} ↗</a><small>{{ p.journal }} · {{ p.year }}</small>
+<p><a href="https://doi.org/{{ p.doi }}">{{ p.title }} {% include arrow-up-right.html %}</a><small>{{ p.journal }} · {{ p.year }}</small>
 </p>
 {% endfor %}</div>
 </div>

@@ -13,7 +13,7 @@ layout: default
   <div class="wrap article-layout section">
     {% if page.cover_image %}<aside class="article-cover"><a href="{{ page.issue_url }}"><img src="{{ page.cover_image | relative_url }}" alt="{{ page.cover_alt }}" width="440" height="584"></a>
 <p>{{ page.cover_credit }}</p>
-<a class="text-link" href="{{ page.issue_url }}">Explore the issue <span aria-hidden="true">↗</span></a>
+<a class="text-link" href="{{ page.issue_url }}">Explore the issue {% include arrow-up-right.html %}</a>
 </aside>
 {% endif %}
     <div class="prose post-body">{{ content }}</div>

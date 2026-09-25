@@ -208,6 +208,11 @@ main:focus {
   text-decoration:underline;
 }
 
+.text-arrow-up-right {
+  display: inline-block;
+  flex-shrink: 0;
+}
+
 .button {
   display:inline-flex;
   justify-content:center;
@@ -1361,7 +1366,7 @@ main:focus {
   text-decoration:none;
 }
 
-.resource h3 span {
+.resource h3 .text-arrow-up-right {
   font-size:20px;
 }
 

@@ -12,15 +12,15 @@ image: /assets/img/team/dl.webp
 <p class="eyebrow">Icahn School of Medicine at Mount Sinai</p>
 <p><strong>Assistant Professor</strong><br>Psychiatry<br>Genetics and Genomic Sciences</p>
 <p><strong>Director</strong><br>Single Cell Neurogenomics Group</p>
-<a class="button" href="{{ site.links.cv }}">Curriculum vitae ↗</a>
+<a class="button" href="{{ site.links.cv }}">Curriculum vitae {% include arrow-up-right.html %}</a>
 <ul class="simple-list">
-<li><a href="mailto:donghoon.lee@mssm.edu">Email Donghoon ↗</a>
+<li><a href="mailto:donghoon.lee@mssm.edu">Email Donghoon {% include arrow-up-right.html %}</a>
 </li>
-<li><a href="{{ site.links.scholar }}">Google Scholar ↗</a>
+<li><a href="{{ site.links.scholar }}">Google Scholar {% include arrow-up-right.html %}</a>
 </li>
-<li><a href="{{ site.links.orcid }}">ORCID ↗</a>
+<li><a href="{{ site.links.orcid }}">ORCID {% include arrow-up-right.html %}</a>
 </li>
-<li><a href="{{ site.links.profile }}">Mount Sinai profile ↗</a>
+<li><a href="{{ site.links.profile }}">Mount Sinai profile {% include arrow-up-right.html %}</a>
 </li>
 </ul>
 </aside>
@@ -34,7 +34,7 @@ image: /assets/img/team/dl.webp
 <p class="eyebrow">September 2026</p>
 <h3>Two cover papers. A shared scientific vision.</h3>
 <p>First and co-corresponding author of the PsychAD flagship in <i>Nature</i> and FreshMG in <i>Nature Genetics</i>.</p>
-<a class="text-link" href="{{ '/news/' | relative_url }}">Explore the cover stories ↗</a>
+<a class="text-link" href="{{ '/news/' | relative_url }}">Explore the cover stories {% include arrow-up-right.html %}</a>
 </div>
 </div>
 </div>
@@ -89,7 +89,7 @@ image: /assets/img/team/dl.webp
 <p class="eyebrow">Selected work</p>
 <h2>Research contributions</h2>
 </div>
-<a class="text-link" href="{{ '/publications/' | relative_url }}">Full publication record ↗</a>
+<a class="text-link" href="{{ '/publications/' | relative_url }}">Full publication record {% include arrow-up-right.html %}</a>
 </div>
 <ol class="publication-list">{% assign selected = site.data.publications | where_exp: 'p', 'p.featured' | sort: 'featured' %}{% for p in selected limit:3 %}{% include pub.html p=p %}{% endfor %}</ol>
 </div>

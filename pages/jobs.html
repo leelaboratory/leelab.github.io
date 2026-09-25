@@ -30,7 +30,7 @@ permalink: /jobs/
 <article class="opportunity"><span class="badge">{% if job.status == 'open' %}Accepting inquiries{% else %}Position filled{% endif %}</span>
 <h3>{{ job.title }}</h3>
 <p>{{ job.summary }}</p>
-{% if job.status == 'open' %}<a class="text-link" href="mailto:{{ site.email }}?subject={{ job.title | url_encode }}%20inquiry">Get in touch ↗</a>{% endif %}</article>
+{% if job.status == 'open' %}<a class="text-link" href="mailto:{{ site.email }}?subject={{ job.title | url_encode }}%20inquiry">Get in touch {% include arrow-up-right.html %}</a>{% endif %}</article>
 {% endfor %}</div>
 <p class="small muted">Opportunities updated {{ site.data.jobs.first.last_checked | date: '%B %Y' }}. MD/PhD students interested in the lab are also welcome to contact us.</p>
 </div>
@@ -71,13 +71,13 @@ permalink: /jobs/
 <p class="eyebrow">Postdoctoral research · Nature Genetics, 2025</p>
 <h3>Tereza Clarence</h3>
 <p>First and co-corresponding author on a multiomic study of gene regulation in the postnatal human brain.</p>
-<a href="https://doi.org/10.1038/s41588-025-02083-8">Read the study ↗</a>
+<a href="https://doi.org/10.1038/s41588-025-02083-8">Read the study {% include arrow-up-right.html %}</a>
 </article>
 <article>
 <p class="eyebrow">Graduate research · Nature Genetics, 2026</p>
 <h3>Christian Porras &amp; Collin Spencer</h3>
 <p>Co-first authors of FreshMG, featured on the September cover of Nature Genetics.</p>
-<a href="{{ '/news/2026/09/freshmg-nature-genetics-cover/' | relative_url }}">Read the cover story ↗</a>
+<a href="{{ '/news/2026/09/freshmg-nature-genetics-cover/' | relative_url }}">Read the cover story {% include arrow-up-right.html %}</a>
 </article>
 </div>
 </div>
@@ -88,7 +88,7 @@ permalink: /jobs/
 <p class="eyebrow">Start a conversation</p>
 <h2>Tell us what<br>you’re curious about.</h2>
 <p>Send your CV and a brief introduction describing your research experience and the questions you’d like to pursue. Links to publications or code are welcome.</p>
-<a class="button" href="mailto:{{ site.email }}?subject=Lee%20Lab%20research%20opportunity">Email {{ site.email }} ↗</a>
+<a class="button" href="mailto:{{ site.email }}?subject=Lee%20Lab%20research%20opportunity">Email {{ site.email }} {% include arrow-up-right.html %}</a>
 </div>
 <div class="application-details">
 <h3>For prospective postdocs</h3>
@@ -96,13 +96,13 @@ permalink: /jobs/
 <h3>For graduate students</h3>
 <p>Current Icahn Mount Sinai students can contact Donghoon about a rotation. Prospective students should apply through the relevant graduate program and mention their interest in our research.</p>
 <ul class="simple-list">
-<li><a href="https://icahn.mssm.edu/education/phd/biomedical-sciences">PhD in Biomedical Sciences ↗</a>
+<li><a href="https://icahn.mssm.edu/education/phd/biomedical-sciences">PhD in Biomedical Sciences {% include arrow-up-right.html %}</a>
 </li>
-<li><a href="https://icahn.mssm.edu/education/phd/neuroscience">PhD in Neuroscience ↗</a>
+<li><a href="https://icahn.mssm.edu/education/phd/neuroscience">PhD in Neuroscience {% include arrow-up-right.html %}</a>
 </li>
-<li><a href="https://icahn.mssm.edu/education/md-phd">MD-PhD program ↗</a>
+<li><a href="https://icahn.mssm.edu/education/md-phd">MD-PhD program {% include arrow-up-right.html %}</a>
 </li>
-<li><a href="https://icahn.mssm.edu/education/postdoc">Office of Postdoctoral Affairs ↗</a>
+<li><a href="https://icahn.mssm.edu/education/postdoc">Office of Postdoctoral Affairs {% include arrow-up-right.html %}</a>
 </li>
 </ul>
 <p class="small muted">See program websites for current admissions requirements and deadlines.</p>

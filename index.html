@@ -11,7 +11,7 @@ description: We connect single-cell genomics, human genetics and machine learnin
 <h1>Understanding<br>the brain.<br><em>One cell at a time.</em>
 </h1>
 <p>We connect single-cell genomics, human genetics and machine learning to understand what makes the brain vulnerable—and resilient—to disease.</p>
-<div class="button-row"><a class="button" href="{{ '/research/' | relative_url }}">Explore our research <span aria-hidden="true">↗</span></a><a class="text-link" href="{{ '/jobs/' | relative_url }}">Join the lab <span aria-hidden="true">→</span></a>
+<div class="button-row"><a class="button" href="{{ '/research/' | relative_url }}">Explore our research {% include arrow-up-right.html %}</a><a class="text-link" href="{{ '/jobs/' | relative_url }}">Join the lab <span aria-hidden="true">→</span></a>
 </div>
 </div>
     <figure class="hero-art">
@@ -34,7 +34,7 @@ description: We connect single-cell genomics, human genetics and machine learnin
 <p class="eyebrow">In the spotlight</p>
 <h2 id="latest-title">Science worth sharing.</h2>
 </div>
-<a class="text-link" href="{{ '/news/' | relative_url }}">All news <span aria-hidden="true">↗</span></a>
+<a class="text-link" href="{{ '/news/' | relative_url }}">All news {% include arrow-up-right.html %}</a>
 </div>
   <div class="cover-grid">{% assign covers = site.posts | where: 'badge', 'cover' %}{% for post in covers limit:2 %}{% include cover-story.html post=post %}{% endfor %}</div>
 </div>
@@ -51,10 +51,10 @@ description: We connect single-cell genomics, human genetics and machine learnin
   <div class="research-cards">{% for area in site.data.zones limit:3 %}<a class="research-card" href="{{ '/research/' | relative_url }}#{{ area.id }}"><span class="area-number">0{{ forloop.index }}</span>
 <h3>{{ area.topic | escape }}</h3>
 <p>{{ area.question }}</p>
-<span class="text-link">Discover more <span aria-hidden="true">↗</span></span></a>{% endfor %}</div>
+<span class="text-link">Discover more {% include arrow-up-right.html %}</span></a>{% endfor %}</div>
   <div class="research-bottom">
 <p>Also exploring <a href="{{ '/research/#ml' | relative_url }}">machine learning</a> and <a href="{{ '/research/#regulatory' | relative_url }}">gene regulatory networks</a>.</p>
-<a class="text-link" href="{{ '/research/' | relative_url }}">Our research directions ↗</a>
+<a class="text-link" href="{{ '/research/' | relative_url }}">Our research directions {% include arrow-up-right.html %}</a>
 </div>
 </div>
 </section>
@@ -64,7 +64,7 @@ description: We connect single-cell genomics, human genetics and machine learnin
 <p class="eyebrow">Discovery at population scale</p>
 <h2>Every cell tells<br>part of the story.</h2>
 <p>The PsychAD atlas brings brain disorders into a shared cellular map—connecting molecular changes across people, cell types and diagnoses.</p>
-<a class="text-link" href="{{ '/research/#atlas' | relative_url }}">Inside the atlas <span aria-hidden="true">↗</span></a>
+<a class="text-link" href="{{ '/research/#atlas' | relative_url }}">Inside the atlas {% include arrow-up-right.html %}</a>
 </div>
 <a class="atlas-figure" href="{{ '/assets/img/research/psychad-atlas.webp' | relative_url }}"><img src="{{ '/assets/img/research/psychad-atlas-900.webp' | relative_url }}" alt="PsychAD atlas showing donor characteristics and 65 brain cell subtypes" width="900" height="449" loading="lazy"></a>
 </div>
@@ -78,7 +78,7 @@ description: We connect single-cell genomics, human genetics and machine learnin
 <div><strong>8</strong><span>Brain disorders compared</span>
 </div>
 </div>
-<p class="wrap donor-note">Made possible by brain donors, their families and our collaborators. <a href="https://doi.org/10.1038/s41586-025-09573-z">Read the study ↗</a>
+<p class="wrap donor-note">Made possible by brain donors, their families and our collaborators. <a href="https://doi.org/10.1038/s41586-025-09573-z">Read the study {% include arrow-up-right.html %}</a>
 </p>
 </section>
 <section class="section">
@@ -89,7 +89,7 @@ description: We connect single-cell genomics, human genetics and machine learnin
 <p class="eyebrow">A collaborative science</p>
 <h2>Big ideas.<br>Shared discoveries.</h2>
 <p>We are computational biologists, geneticists and neuroscientists working together at Mount Sinai in New York City. As part of the Center for Disease Neurogenomics, we turn rich human datasets into new biological questions.</p>
-<div class="button-row"><a class="button" href="{{ '/team/' | relative_url }}">Meet our people ↗</a><a class="text-link" href="{{ '/pi/' | relative_url }}">Meet Donghoon Lee →</a>
+<div class="button-row"><a class="button" href="{{ '/team/' | relative_url }}">Meet our people {% include arrow-up-right.html %}</a><a class="text-link" href="{{ '/pi/' | relative_url }}">Meet Donghoon Lee →</a>
 </div>
 </div>
 </div>
@@ -101,7 +101,7 @@ description: We connect single-cell genomics, human genetics and machine learnin
 <p class="eyebrow">From the lab</p>
 <h2>Selected publications</h2>
 </div>
-<a class="text-link" href="{{ '/publications/' | relative_url }}">All publications ↗</a>
+<a class="text-link" href="{{ '/publications/' | relative_url }}">All publications {% include arrow-up-right.html %}</a>
 </div>
 <ol class="publication-list">{% assign selected = site.data.publications | where_exp: 'p', 'p.featured' | sort: 'featured' %}{% for p in selected limit:3 %}{% include pub.html p=p %}{% endfor %}</ol>
 </div>

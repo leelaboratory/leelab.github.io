@@ -8,10 +8,10 @@
   <div class="nav-border">
 <nav class="wrap nav" id="site-nav" aria-label="Main navigation">
     <ul>{% for item in site.nav %}
-<li{% if item.button %} class="nav-join"{% endif %}><a href="{{ item.url | relative_url }}"{% if page.url contains item.url %} aria-current="page"{% endif %}>{{ item.label }}{% if item.button %}<span aria-hidden="true">↗</span>{% endif %}</a>
+<li{% if item.button %} class="nav-join"{% endif %}><a href="{{ item.url | relative_url }}"{% if page.url contains item.url %} aria-current="page"{% endif %}>{{ item.label }}{% if item.button %}{% include arrow-up-right.html %}{% endif %}</a>
 </li>
 {% endfor %}</ul>
-    <a class="nav-pi" href="{{ '/pi/' | relative_url }}"{% if page.url == '/pi/' %} aria-current="page"{% endif %}>Donghoon Lee, PhD <span aria-hidden="true">↗</span></a>
+    <a class="nav-pi" href="{{ '/pi/' | relative_url }}"{% if page.url == '/pi/' %} aria-current="page"{% endif %}>Donghoon Lee, PhD {% include arrow-up-right.html %}</a>
   </nav>
 </div>
 </header>

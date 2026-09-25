@@ -9,16 +9,16 @@ permalink: /software/
 <div class="wrap">
 <div class="section-head">
 <h2>Software &amp; analysis</h2>
-<a class="text-link" href="{{ site.links.github }}">Lee Lab on GitHub ↗</a>
+<a class="text-link" href="{{ site.links.github }}">Lee Lab on GitHub {% include arrow-up-right.html %}</a>
 </div>
 <div class="resource-grid">{% for tool in site.data.software.ours %}
 <article class="resource">
 <p class="eyebrow">{{ tool.lang }}{% if tool.license %} · {{ tool.license }}{% endif %}</p>
-<h3><a href="{{ tool.url }}">{{ tool.name | escape }} <span aria-hidden="true">↗</span></a>
+<h3><a href="{{ tool.url }}">{{ tool.name | escape }} {% include arrow-up-right.html %}</a>
 </h3>
 <p>{{ tool.use | escape }}</p>
 <p class="resource-credit">{{ tool.maker | escape }}</p>
-<div class="resource-links"><a href="{{ tool.url }}">Code ↗</a>{% if tool.paper %}<a href="https://doi.org/{{ tool.paper }}">Paper ↗</a>{% endif %}</div>
+<div class="resource-links"><a href="{{ tool.url }}">Code {% include arrow-up-right.html %}</a>{% if tool.paper %}<a href="https://doi.org/{{ tool.paper }}">Paper {% include arrow-up-right.html %}</a>{% endif %}</div>
 </article>
 {% endfor %}</div>
 </div>
@@ -33,7 +33,7 @@ permalink: /software/
 </div>
 <div class="resource-grid">{% for data in site.data.software.data %}
 <article class="resource">
-<h3><a href="{{ data.url }}">{{ data.name | escape }} ↗</a>
+<h3><a href="{{ data.url }}">{{ data.name | escape }} {% include arrow-up-right.html %}</a>
 </h3>
 <p>{{ data.use | escape }}</p>
 </article>
@@ -51,7 +51,7 @@ permalink: /software/
 <div class="resource-grid">{% for tool in site.data.software.collaborators %}
 <article class="resource">
 <p class="eyebrow">{{ tool.lang }}</p>
-<h3><a href="{{ tool.url }}">{{ tool.name | escape }} ↗</a>
+<h3><a href="{{ tool.url }}">{{ tool.name | escape }} {% include arrow-up-right.html %}</a>
 </h3>
 <p>{{ tool.use | escape }}</p>
 <p class="resource-credit">{{ tool.maker | escape }}</p>
